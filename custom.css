@@ -1,0 +1,86 @@
+/*custom stylesheet css*/
+
+/*
+.panel {
+    border-color: gainsboro;
+}
+*/
+
+.panel.panel-info {
+  border-color: gainsboro;
+}
+
+.panel.panel-info > .panel-heading {
+  color: #29a3a3;
+  background-color: #33334d;
+    background: linear-gradient(to right, #33334d, #5c5c8a);
+  border-color: gainsboro;
+}
+
+.panel.panel-info > .panel-body {
+  color: black;
+  background-color: white;
+  border-color: gainsboro;
+}
+
+.subfooter {
+    height: 180px;
+    background: #33334d;
+    background: linear-gradient(to right, #33334d, #5c5c8a);
+    color: #29a3a3;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    padding: 20px 20px;
+}
+
+/*
+.customerFooter {
+    color: white;
+    background: gainsboro;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    
+} 
+*/
+
+.navbar .navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar.navbar-default .navbar-brand {
+/*    background: linear-gradient(to left, #7575a3, #5c5c8a);*/
+    color: #29a3a3;
+}
+
+.navbar.navbar-default {
+    background-color: #33334d; 
+    background: linear-gradient(to right, #33334d, #7575a3);
+    border-color: #e7e7e7;
+    color: #29a3a3;
+}
+
+.hackerrank {
+    border-radius: 40%;
+}
+
+.linkedIn {
+    border-radius: 40%;
+}
+
+.gitHub {
+	border-radius: 40%;
+}
+
+.navbar .navbar-default .navbar-nav > li > a:hover,
+.navbar .navbar-default .navbar-nav > li > a:focus {
+  color: #29a3a3;
+  background-color: transparent;
+}
+
+/*
+.navbar-toggle collapsed .navbar-default .navbar-toggle .icon-bar {
+  background-color: 29a3a3 !important;
+}*/
