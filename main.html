@@ -1,226 +1,153 @@
 <!DOCTYPE html>
 <head>
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" charset="utf-8"/>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="main.css" type="text/css">
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-  <nav class="navbar navbar-fixed-top" id="banner" >
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-       </button>
-      <a class="navbar-brand" href="#" id="title">Rupehra Chouhan</a>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#code">Projects</a></li>
-<!--           <li><a href="#other">Other</a></li> -->
-          <li><a href="#contact">Contact</a></li>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Rupehra Chouhan</a>
+      </div>
+
+      <!-- Collect the nav links for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#section-1">Projects<span class="sr-only">(current)</span></a></li>
+          <li><a href="#section-2">Work Experience</a></li>
+          <li><a href="#section-3">Contact Me</a></li>
         </ul>
-      </div>
-    </div>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
   </nav>
+
   <div class="container">
-    <div id="about" class="container-fluid">
-
-      <div class="card">
-        <div class="row">
-          <div class="col-xs-4">
-            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAfgAAAAJDJkYjNiZGRlLWRhMDQtNDUzNi04MmNjLTBmNjcyOGE2MDQxMA.jpg" class="img-responsive img-profile"/>
-          </div>
-          <div class="col-xs-8">
-            <div class="card-about">
-              <h1>Hello!</h1>
-              <p>Hi, I'm Rupehra Chouhan, a third year Computing Science student at University of Alberta specializing in Software Practice.</p>
-            </div>
-          </div>
-        </div>
+    <div class="jumbotron">
+      <div class="container">
+        <h4>Rupehra Chouhan</h4>
+        <p>CS student at University of Alberta and former intern at Intuit
+          Like my website? Go check it out on GitHub.</p>
+        <p><a class="btn btn-info btn-lg" href="#" role="button">Learn more</a></p>
       </div>
     </div>
-    <div id="code" class="container-fluid">
+  </div>
+
+  <section id="section-1">
+
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4 align="center">A few projects that I have worked on</h4>
+        </div>
+      </div>
+
+
       <div class="row">
-        <div class="col-sm-6 card-container">
-          <div class="card-vertical">
-            <div class="face card-vertical-front">
-              <div class="card-img">
-                <img  src="http://www.cgcolors.com/wp-content/uploads/2015/02/android-app-development.png" class="project-img"/>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Game Exchange App</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flip1">
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="face card-vertical-back">
-              <div class="card-img">
-                <p class="back-text">An android app which let people exchange video games<p>
-                 <a class=link href="https://github.com/CMPUT301F15T04/Project1" target="_blank">Link to code</a>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Game Exchange App</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flipBack1">
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="DetectiveSketch.jpg" alt="Detective Sketch">
+            <div class="caption">
+              <h3 align="center">Game Swap <a href="https://github.com/CMPUT301F15T04/Project1" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></a></i></h3>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 card-container">
-          <div class="card-vertical">
-            <div class="face card-vertical-front">
-              <div class="card-img">
-                <img  src="http://www.cgcolors.com/wp-content/uploads/2015/02/android-app-development.png" class="project-img"/>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Countdown Timer</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flip2">
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="face card-vertical-back">
-              <div class="card-img">
-                <p class="back-text">Counter timer built in MIPS (Low level language)<p>
-                <a class=link href="#" target="_blank">Link to video</a>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Countdown Timer</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flipBack2">
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!--end of card 2 -->
-        <div class="col-sm-6 card-container">
-          <div class="card-vertical">
-            <div class="face card-vertical-front">
-              <div class="card-img">
-                <img  src="http://www.cgcolors.com/wp-content/uploads/2015/02/android-app-development.png" class="project-img"/>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Link&Knot</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flip3">
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="face card-vertical-back">
-              <div class="card-img">
-                <p class="back-text">A social networking site for university students<p>
-                 <a class=link href="https://github.com/LinKnotatUofA/Web" target="_blank">Link to code</a>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Link&Knot</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flipBack3">
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!--end of card 3 -->
-        <div class="col-sm-6 card-container">
-          <div class="card-vertical">
-            <div class="face card-vertical-front">
-              <div class="card-img">
-                <img  src="https://raw.githubusercontent.com/RupehraChouhan/Murder-on-the-Airship-Azimuth/master/game/images/DetectiveSketch1.jpg" class="project-img"/>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Murder on the Airship Azimuth</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flip4">
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="face card-vertical-back">
-              <div class="card-img">
-                <p class="back-text">A text adventure game to find the murderer<p>
-                 <a class=link href="https://github.com/RupehraChouhan/Murder-on-the-Airship-Azimuth" target="_blank">Link to code</a>
-              </div>
-              <div class="card-vertical-bottom">
-                <div class="project-description">
-                  <p>Murder on the Airship Azimuth</p>
-                </div>
-                <div class="right-arrow">
-                  <a href="#" id="flipBack4">
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> <!--end of card four -->
+
+        <div class="col-sm-6 col-md-8">
+          <!-- <div class="well"> -->
+            <p>HIIIII</p>
+          <!-- </div> -->
+        </div>
 
       </div>
-    </div>
-  </div>
-  <footer id="contact">
-<!--   <hr/> -->
-  <div id="footer-above">
-    <div>
-      <h3>ABOUT THIS PAGE</h3>
-      <p>Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-music"></i><br/>by <a href="#">Rupehra Chouhan</a></p>
-    </div>
-    <div>
-      <h3>AROUND THE WEB</h3>
-      <a href="https://ca.linkedin.com/in/rupehrachouhan" class="socials" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
-      <a href="https://github.com/RupehraChouhan" class="socials" target="_blank"><i class="fa fa-fw fa-github"></i></a>
-      <a href="https://github.com/RupehraChouhan" class="socials" target="_blank"><i class="fa fa-envelope"></i></a>
+
+      <div class="row">
+
+        <div class="col-sm-6 col-md-8">
+          <div class="well well-lg">
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="DetectiveSketch.jpg" alt="Detective Sketch">
+            <div class="caption">
+              <!-- <h3 align="center">Murder-on-the-Airship-Azimuth</h3> -->
+              <h3 align="center">Murder-on-the-Airship-Azimuth <a href="https://github.com/RupehraChouhan/Murder-on-the-Airship-Azimuth" target="_blank"><i class="fa fa-github" aria-hidden="true"></a></i></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </div>
-  </div>
-  <div id="footer-below">Rupehra Chouhan ©
-    <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
-  </div>
-</footer>
-</body>
+  </section>
+
+  <section id="section-2">
+
+    <div class="container">
+      <div class="panel panel-default">
+        <!-- <div class="panel-heading">
+          <h4 align="center">Work Experience</h4>
+        </div> -->
+        <div class="panel-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+             aliquip ex ea commodo consequat. Duis aute irure dolor in
+             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+             culpa qui officia deserunt mollit anim id est laborum. </p>
+             <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="section-3">
+
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>I am on the web!!</h4>
+          <p><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> LinkedIn</p>
+          <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> Email</p>
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+
+    <div>
+      <p align="center">Rupehra Chouhan ©
+<script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
+    </div>
+
+  </section>
+
+  </body>
+</html>
