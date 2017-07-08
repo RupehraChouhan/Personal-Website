@@ -1,140 +1,226 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rupehra Chouhan</title>
-        
-        <!-- Latest compiled and minified CSS -->
-<!--        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-        <link rel="stylesheet" href="custom.css">
-        <link rel="stylesheet" href="bootstrap.css">
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" charset="utf-8"/>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="main.css" type="text/css">
 
-        <!-- Optional theme -->
-<!--        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
-                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script language="javascript" type="text/javascript" src="navigation.js"></script>
-    </head>
-    <body>
-        <header class="navbar" role="banner">
-<!--            <div class="container">-->
-                <nav class="navbar navbar-default">
-    <!--                  <div class="container-fluid">-->
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                      <button type="button" id="menuButton" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#">Rupehra Chouhan</a>
-                    </div>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top" id="banner" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       </button>
+      <a class="navbar-brand" href="#" id="title">Rupehra Chouhan</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#code">Projects</a></li>
+<!--           <li><a href="#other">Other</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div id="about" class="container-fluid">
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul id="navbarMobile" class="nav navbar-nav">
-                        <li><a href="#" class="navOption">Education</a></li>
-                        <li><a href="#" class="navOption">Volunteer</a></li>
-                        <li><a href="#" class="navOption">Programming</a></li>
-                        <li><a href="#" class="navOption">Other Interests</a></li>
-                      </ul>
-                    </div><!-- /.navbar-collapse -->
-                  <!--</div> /.container-fluid -->
-                </nav>
-<!--            </div>-->
-        </header>
-                
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                    <div id="panelAbout" class="panel panel-info">
-                        <div class="panel-heading">About</div>
-                        <div class="panel-body">
-                            About Content
-                        </div>
-                    </div>
-                </div>
-         
-                <div class="col-sm-6 col-xs-12">
-                    <div id="panelEducation" class="panel panel-info">
-                        <div class="panel-heading">Education</div>
-                        <div class="panel-body">
-                            <p>University of Alberta</p> 
-                            <p>Bachelor of Science</p>
-                            <p>Specialization in software pracctice</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-xs-12">
-                    <div id="panelContests" class="panel panel-info">
-                        <div class="panel-heading">Coding Contests</div>
-                        <div class="panel-body">
-                            <p>Microsoft Coding Contest (2015)</p>
-                            <p>Hackerrank 1 week coding challenge (Sept 2016)</p>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="col-sm-6 col-xs-12">
-                    <div id="panelProgramming" class="panel panel-info">
-                        <div class="panel-heading">Links to Programming Websites</div>
-                        <div class="panel-body">
-                            <p>Hackerrank</p>
-                            <p>Github</p>
-                        </div>
-                    </div>
-                 </div>
-                <div class="col-sm-6 col-xs-12">
-                    <div id="panelInterests" class="panel panel-info">
-                        <div class="panel-heading">Others Interests</div>
-                        <div class="panel-body">
-                            Photography <br>
-                            Swiming
-                        </div>
-                    </div>
-                </div>
-             
-                <div class="col-sm-6 col-xs-12">
-                    <div id="panelVolunteer" class="panel panel-info">
-                        <div class="panel-heading">Volunteer Work</div>
-                        <div class="panel-body">
-                            panel content
-                        </div>
-                    </div>
-                </div>
-           
+      <div class="card">
+        <div class="row">
+          <div class="col-xs-4">
+            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAfgAAAAJDJkYjNiZGRlLWRhMDQtNDUzNi04MmNjLTBmNjcyOGE2MDQxMA.jpg" class="img-responsive img-profile"/>
+          </div>
+          <div class="col-xs-8">
+            <div class="card-about">
+              <h1>Hello!</h1>
+              <p>Hi, I'm Rupehra Chouhan, a third year Computing Science student at University of Alberta specializing in Software Practice.</p>
             </div>
+          </div>
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        
-        
-        
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
-        <footer>
-            
-            <div class="subfooter">
-                <div class="row">
-                    <div class="col-sm col-xs-12">
-                        <a href="https://www.hackerrank.com/rupehrachouhan"  >
-                            <img src="HackerRank_logo.jpg" alt="Hackerrank" style="width:35px;height:35px;" class="hackerrank" >
-                        </a>
-                        <a href="https://ca.linkedin.com/in/rupehrachouhan" >
-                            <img src="LinkedIn.png" alt="LinkedIn" style="width:35px;height:35px;" class="linkedIn" >
-                         </a>
-                        <a href="https://github.com/RupehraChouhan" >
-                            <img src="git.svg" alt="GitHub" style="width:35px;height:35px;" class="gitHub" >
-                        </a>
-                    </div>
+      </div>
+    </div>
+    <div id="code" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 card-container">
+          <div class="card-vertical">
+            <div class="face card-vertical-front">
+              <div class="card-img">
+                <img  src="http://www.cgcolors.com/wp-content/uploads/2015/02/android-app-development.png" class="project-img"/>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Game Exchange App</p>
                 </div>
-            </div>    
+                <div class="right-arrow">
+                  <a href="#" id="flip1">
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="face card-vertical-back">
+              <div class="card-img">
+                <p class="back-text">An android app which let people exchange video games<p>
+                 <a class=link href="https://github.com/CMPUT301F15T04/Project1" target="_blank">Link to code</a>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Game Exchange App</p>
+                </div>
+                <div class="right-arrow">
+                  <a href="#" id="flipBack1">
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 card-container">
+          <div class="card-vertical">
+            <div class="face card-vertical-front">
+              <div class="card-img">
+                <img  src="http://www.cgcolors.com/wp-content/uploads/2015/02/android-app-development.png" class="project-img"/>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Countdown Timer</p>
+                </div>
+                <div class="right-arrow">
+                  <a href="#" id="flip2">
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="face card-vertical-back">
+              <div class="card-img">
+                <p class="back-text">Counter timer built in MIPS (Low level language)<p>
+                <a class=link href="#" target="_blank">Link to video</a>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Countdown Timer</p>
+                </div>
+                <div class="right-arrow">
+                  <a href="#" id="flipBack2">
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!--end of card 2 -->
+        <div class="col-sm-6 card-container">
+          <div class="card-vertical">
+            <div class="face card-vertical-front">
+              <div class="card-img">
+                <img  src="http://www.cgcolors.com/wp-content/uploads/2015/02/android-app-development.png" class="project-img"/>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Link&Knot</p>
+                </div>
+                <div class="right-arrow">
+                  <a href="#" id="flip3">
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="face card-vertical-back">
+              <div class="card-img">
+                <p class="back-text">A social networking site for university students<p>
+                 <a class=link href="https://github.com/LinKnotatUofA/Web" target="_blank">Link to code</a>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Link&Knot</p>
+                </div>
+                <div class="right-arrow">
+                  <a href="#" id="flipBack3">
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!--end of card 3 -->
+        <div class="col-sm-6 card-container">
+          <div class="card-vertical">
+            <div class="face card-vertical-front">
+              <div class="card-img">
+                <img  src="https://raw.githubusercontent.com/RupehraChouhan/Murder-on-the-Airship-Azimuth/master/game/images/DetectiveSketch1.jpg" class="project-img"/>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Murder on the Airship Azimuth</p>
+                </div>
+                <div class="right-arrow">
+                  <a href="#" id="flip4">
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-right custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="face card-vertical-back">
+              <div class="card-img">
+                <p class="back-text">A text adventure game to find the murderer<p>
+                 <a class=link href="https://github.com/RupehraChouhan/Murder-on-the-Airship-Azimuth" target="_blank">Link to code</a>
+              </div>
+              <div class="card-vertical-bottom">
+                <div class="project-description">
+                  <p>Murder on the Airship Azimuth</p>
+                </div>
+                <div class="right-arrow">
+                  <a href="#" id="flipBack4">
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                    <i class="fa fa-chevron-left custom" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!--end of card four -->
 
-        </footer>
-        
-    </body>
-   
-</html>
+      </div>
+    </div>
+  </div>
+  <footer id="contact">
+<!--   <hr/> -->
+  <div id="footer-above">
+    <div>
+      <h3>ABOUT THIS PAGE</h3>
+      <p>Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-music"></i><br/>by <a href="#">Rupehra Chouhan</a></p>
+    </div>
+    <div>
+      <h3>AROUND THE WEB</h3>
+      <a href="https://ca.linkedin.com/in/rupehrachouhan" class="socials" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+      <a href="https://github.com/RupehraChouhan" class="socials" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+      <a href="https://github.com/RupehraChouhan" class="socials" target="_blank"><i class="fa fa-envelope"></i></a>
+
+    </div>
+  </div>
+  <div id="footer-below">Rupehra Chouhan ©
+    <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.
+  </div>
+</footer>
+</body>
