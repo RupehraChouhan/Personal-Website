@@ -18,10 +18,32 @@
 
   <style>
   .extra-jumbotron {
-    background-image: url(IMG_03662.JPG);
+    background-image: url(IMG_0441.JPG);
     background-size: 100%;
-    height: 400px;
+    background-repeat: no-repeat;
+    min-width: 100px;
   }
+  body {
+    background-color: gainsboro;
+  }
+
+  .img-profile {
+    background-repeat: no-repeat;
+    border: 3px solid #aaa;
+    margin:15% 5%;
+    padding: 1px;
+  }
+
+  .jumbotron {
+    background-color: black;
+  }
+  .jumbotron .col-xs-8 p{
+    color: white;
+    margin:29% 5% 15% 5%;
+    font-family:monospace;
+    /*font-size: 15px;*/
+  }
+
   </style>
 </head>
 
@@ -51,17 +73,27 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <!-- <div class="container"> -->
+  <div class="container">
     <div class="jumbotron extra-jumbotron">
+      <!-- <div class="extra-jumbotron"> -->
       <div class="container">
-        <!-- <img src="IMG_0366.JPG" alt="Detective Sketch"> -->
-        <h4>Rupehra Chouhan</h4>
-        <p>CS student at University of Alberta and former intern at Intuit
-          Like my website? Go check it out on GitHub.</p>
-        <p><a class="btn btn-info btn-lg" href="#" role="button">Learn more</a></p>
-      </div>
+        <div class="col-xs-4">
+          <!-- <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAfgAAAAJDJkYjNiZGRlLWRhMDQtNDUzNi04MmNjLTBmNjcyOGE2MDQxMA.jpg" class="img-responsive img-profile"/> -->
+
+          <div class="img-profile">
+            <img src="profile1.jpg" class="img-responsive "/>
+          </div>
+
+        </div>
+        <div class="col-xs-8">
+          <!-- <img src="IMG_0366.JPG" alt="Detective Sketch"> -->
+          <!-- <h4>Rupehra Chouhan</h4> -->
+          <p>Hi, I am Rupehra. I am a CS student at University of Alberta</p>
+        </div>
+      <!-- </div> -->
     </div>
-  <!-- </div> -->
+    </div>
+  </div>
 
   <section id="section-1">
 
@@ -85,8 +117,7 @@
         </div>
 
         <div class="col-sm-6 col-md-8">
-          <!-- <div class="well"> -->
-          <!-- </div> -->
+
         </div>
 
       </div>
