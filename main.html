@@ -27,6 +27,13 @@
     background-color: gainsboro;
   }
 
+  .thumbnail {
+    min-height: 368px;
+    max-height: 368px;
+  }
+  .thumbnail img {
+    min-height: 265px;
+  }
   .img-profile {
     background-repeat: no-repeat;
     border: 3px solid #aaa;
@@ -42,6 +49,22 @@
     margin:29% 5% 15% 5%;
     font-family:monospace;
     /*font-size: 15px;*/
+  }
+  .card {
+    background-color: #fff;
+    min-height: 368px;
+    box-shadow:0 1px 2px rgba(0,0,0,.075);
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    /*margin-bottom: 10px;*/
+  }
+  .card p {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   </style>
@@ -65,7 +88,8 @@
       <!-- Collect the nav links for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#section-1">Projects<span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="#section-0">About Me<span class="sr-only">(current)</span></a></li>
+          <li><a href="#section-1">Projects</a></li>
           <li><a href="#section-2">Work Experience</a></li>
           <li><a href="#section-3">Contact Me</a></li>
         </ul>
@@ -74,7 +98,7 @@
   </nav>
 
   <div class="container">
-    <div class="jumbotron extra-jumbotron">
+    <div class="jumbotron extra-jumbotron" id="section-0">
       <!-- <div class="extra-jumbotron"> -->
       <div class="container">
         <div class="col-xs-4">
@@ -117,7 +141,12 @@
         </div>
 
         <div class="col-sm-6 col-md-8">
-
+          <div class="card">
+            <p align="center">Built an android mobile application to allow users to keep track of games
+              they have and trade them with other users. The user is able to post
+               pictures of their games, handle offline functionality, handle
+               rotation, etc.</p>
+          </div>
         </div>
 
       </div>
@@ -135,8 +164,8 @@
         </div>
 
         <div class="col-sm-6 col-md-8">
-          <!-- <div class="well well-lg"> -->
-          <!-- </div> -->
+          <div class="card">
+          </div>
         </div>
 
       </div>
@@ -148,9 +177,9 @@
 
     <div class="container">
       <div class="panel panel-default">
-        <!-- <div class="panel-heading">
+        <div class="panel-heading">
           <h4 align="center">Work Experience</h4>
-        </div> -->
+        </div>
         <div class="panel-body">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -171,8 +200,11 @@
 
     <div class="container">
       <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 align="center">I am on the web!!</</h4>
+        </div>
         <div class="panel-body">
-          <h4>I am on the web!!</h4>
+          <!-- <h4>I am on the web!!</h4> -->
           <p><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> LinkedIn</p>
           <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> Email</p>
         </div>
