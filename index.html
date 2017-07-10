@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" charset="utf-8"/>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <style>
+  .extra-jumbotron {
+    background-image: url(IMG_0441.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 100px;
+  }
+  body {
+    background-color: gainsboro;
+    font-size: 17px;
+  }
+/*
+  a {
+    color:#333;
+  }*/
+  .thumbnail {
+    min-height: 350px;
+    max-height: 350px;
+    /*font-size: 20px;*/
+  }
+  .thumbnail img {
+    min-height: 260px;
+    max-height: 270px;
+
+  }
+  .thumbnail h4 {
+    margin-top: 17px;
+  }
+  .img-profile {
+    background-repeat: no-repeat;
+    border: 3px solid #aaa;
+    margin:15% 5%;
+    padding: 1px;
+  }
+
+  .jumbotron {
+    background-color: black;
+  }
+  .jumbotron .col-xs-8 p{
+    color: white;
+    margin:29% 5% 15% 5%;
+    font-family:monospace;
+    /*font-size: 15px;*/
+  }
+  .card {
+    background-color: #fff;
+    min-height: 350px;
+    box-shadow:0 1px 2px rgba(0,0,0,.075);
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    /*margin-bottom: 10px;*/
+  }
+  .card p {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .navbar-brand a{
+    font-size: 22px;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Rupehra Chouhan</a>
+      </div>
+
+      <!-- Collect the nav links for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#section-0">About Me<span class="sr-only">(current)</span></a></li>
+          <li><a href="#section-1">Projects</a></li>
+          <li><a href="#section-2">Work Experience</a></li>
+          <li><a href="#section-3">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron extra-jumbotron" id="section-0">
+      <!-- <div class="extra-jumbotron"> -->
+      <div class="container">
+        <div class="col-xs-4">
+          <!-- <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAfgAAAAJDJkYjNiZGRlLWRhMDQtNDUzNi04MmNjLTBmNjcyOGE2MDQxMA.jpg" class="img-responsive img-profile"/> -->
+
+          <div class="img-profile">
+            <img src="profile1.jpg" class="img-responsive "/>
+          </div>
+
+        </div>
+        <div class="col-xs-8">
+          <!-- <img src="IMG_0366.JPG" alt="Detective Sketch"> -->
+          <!-- <h4>Rupehra Chouhan</h4> -->
+          <p>Hi, I am Rupehra. I am a CS student at University of Alberta. Other than coding
+            <i class="fa fa-code" aria-hidden="true"></i>,
+            I like to swim, dance and
+            take lots of pictures <i class="fa fa-camera" aria-hidden="true"></i></p>
+        </div>
+      <!-- </div> -->
+    </div>
+    </div>
+  </div>
+
+  <section id="section-1">
+
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4 align="center">A few projects that I have worked on</h4>
+        </div>
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="GameSwap.JPG" alt="Detective Sketch">
+            <div class="caption">
+              <h4 align="center">Game Swap <a href="https://github.com/CMPUT301F15T04/Project1" target="_blank"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></a></i></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-8">
+          <div class="card">
+            <p align="center">Built an android mobile application to allow users to keep track of games
+              they have and trade them with other users. The user is able to post
+               pictures of their games, handle offline functionality, handle
+               rotation, etc.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="DetectiveSketch.jpg" alt="Detective Sketch">
+            <div class="caption">
+              <!-- <h3 align="center">Murder-on-the-Airship-Azimuth</h3> -->
+              <h4 align="center">Murder-on-the-Airship-Azimuth <a href="https://github.com/RupehraChouhan/Murder-on-the-Airship-Azimuth" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></a></i></h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-8">
+          <div class="card">
+            <p align="center">A text adventure game inspired from chess in Python using Ren’Py engine.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="section-2">
+
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 align="center">Work Experience</h4>
+        </div>
+        <div class="panel-body">
+          <p><i class="fa fa-bug fa-2x" aria-hidden="true"></i> Intuit – Software Engineer in Quality Co-op</p>
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="section-3">
+
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 align="center">Get in touch with me</</h4>
+        </div>
+        <div class="panel-body">
+          <!-- <h4>I am on the web!!</h4> -->
+          <a href="https://www.linkedin.com/in/rupehrachouhan/" target="_blank"><p><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> LinkedIn</p></a>
+          <a href="#"><p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> Email</p></a>
+          <a href="#https://plus.google.com/u/0/collection/Yc3XaB"><p><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i> Cell <i class="fa fa-camera" aria-hidden="true"></i></p></a>
+        </div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
+
+    <div>
+      <p align="center">Rupehra Chouhan ©
+<script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
+    </div>
+
+  </section>
+
+  </body>
+</html>
