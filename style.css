@@ -37,7 +37,7 @@ a {
 }
 .jumbotron .col-xs-8 p{
   color: white;
-  margin:29% 5% 15% 5%;
+  /*margin:29% 5% 15% 5%;*/
   font-family:monospace;
   /*font-size: 15px;*/
 }
