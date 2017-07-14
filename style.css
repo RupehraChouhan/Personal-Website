@@ -64,3 +64,9 @@ a {
 section {
   margin-bottom: 30px;
 }
+
+.popover{
+  top: 31px !important;
+  left: 100px !important;
+  display: block;
+}
